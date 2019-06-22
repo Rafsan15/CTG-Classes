@@ -1,0 +1,78 @@
+
+
+div{
+    background: purple;
+    color: white;
+}
+
+/*This is an Id*/
+#quote{
+    font-family: "Verdana", "Gill Sans MT";
+    color: black;
+}
+
+/*This is an Class*/
+.movie{
+    color: white;
+    background: steelblue;
+}
+
+/*This is : <span id="author">*/
+span#author{
+    text-transform: uppercase;
+}
+
+/*This is : <div id="skills"> <ol> <li> Type something </li> </ol></div>*/
+#skills ol li{
+    color: purple;
+}
+/*This is : <div id="skills"> <ul> <li> Type something </li> </ul></div>*/
+#skills ul li{
+    color: aqua;
+}
+
+/*This is for all the P tag under h3:  like - <h3><p>Write something</p></h3>*/
+h3 + p{
+    background: black;
+    color: aqua;
+}
+/*This is for all the P tag which have class attribute*/
+p[class]{
+    background: gray;
+}
+/*This is for all the P tag which have id attribute*/
+p[id]{
+    background: blueviolet;
+}
+
+
+a:hover{
+    background: gray;
+}
+a:active{
+    background: aliceblue;
+}
+a:visited{
+    background: crimson;
+}
+
+body{
+    background: darkseagreen;
+}
+
+/*This is a div*/
+#wrapper{
+    margin: 0 auto;
+    background-color: aliceblue;
+    width: 800px;
+    height: 400px;
+}
+
+header{
+    padding: 0px 0px 10px 10px;
+}
+
+
+.Shadow{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

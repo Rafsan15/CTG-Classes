@@ -1,0 +1,40 @@
+
+
+.TCenter{
+    text-align: center;
+}
+
+.TLeft{
+    text-align: left;
+}
+
+.TRight{
+    text-align: Right;
+}
+
+.TopLeft{
+    position: absolute;
+
+
+}
+
+.BottomRight{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+    z-index: 5;
+}
+
+.FixedPosition{
+    position: fixed;
+}
+
+.RelativePosition1{
+    height:100px;
+}
+.RelativePosition2{
+    position: relative;
+    height:100px;
+}
+

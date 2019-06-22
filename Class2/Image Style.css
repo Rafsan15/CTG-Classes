@@ -1,0 +1,14 @@
+
+
+img{
+
+    float: right;
+}
+/*without image*/
+#backGroundWithoutImage{
+    background-image: linear-gradient(to right, aliceblue,blueviolet,gray);
+}
+
+#backGroundWithImage{
+    background-image: url("pic.jpg");
+}
